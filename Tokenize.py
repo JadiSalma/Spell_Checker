@@ -1,3 +1,7 @@
+import torch
+from torch.utils.data import Dataset
+import tiktoken
+
 class TextDataset(Dataset):
 
     def __init__(self, file_path):
